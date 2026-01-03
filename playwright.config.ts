@@ -35,18 +35,13 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: 'android',
+      use: { ...devices['Galaxy S24'] },
     },
 
     {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      name: 'iphone',
+      use: { ...devices['iPhone 15 Pro Max'] },
     },
 
     /* Test against mobile viewports. */
